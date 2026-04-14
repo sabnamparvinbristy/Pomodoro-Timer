@@ -354,3 +354,12 @@
   font-weight: 600;
   letter-spacing: 0.3px;
 }
+/* footer */
+.footer {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.8;
+  letter-spacing: 0.2px;
+  color: rgba(232,237,245,0.22);
+}
