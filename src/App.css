@@ -108,3 +108,9 @@
   white-space: nowrap;
 }
 .mode-tab:hover { opacity: 0.85; transform: translateY(-1px); }
+/* card */
+.card {
+  border-radius: 28px;
+  padding: 32px 28px 24px;
+  margin-bottom: 14px;
+}
