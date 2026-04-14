@@ -14,3 +14,14 @@
   position: relative;
   overflow-x: hidden;
 }
+
+.orb {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+  animation: orbFloat 20s ease-in-out infinite;
+}
+.orb1 { width: 520px; height: 520px; top: -140px; right: -100px; animation-duration: 20s; }
+.orb2 { width: 400px; height: 400px; bottom: -100px; left: -80px; animation-duration: 26s; animation-delay: -10s; }
+
