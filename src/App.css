@@ -363,3 +363,19 @@
   letter-spacing: 0.2px;
   color: rgba(232,237,245,0.22);
 }
+/* responsive */
+@media (max-width: 480px) {
+  .app { padding: 22px 14px 52px; }
+  .card { padding: 24px 18px 20px; }
+  .ring-wrap { width: 220px; height: 220px; }
+  .time-digits { font-size: 46px; }
+  .time-colon { font-size: 36px; }
+  .mode-tab { font-size: 11px; padding: 8px 4px; }
+  .ctrl-btn { padding: 11px 22px; font-size: 13px; }
+}
+
+@media (max-width: 360px) {
+  .ring-wrap { width: 200px; height: 200px; }
+  .time-digits { font-size: 40px; }
+  .mode-tabs { flex-direction: column; }
+}
