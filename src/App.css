@@ -254,3 +254,36 @@
   justify-content: center;
   gap: 4px;
 }
+.mode-label {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+.time-display {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  line-height: 1;
+}
+.time-digits {
+  font-family: 'DM Mono', monospace;
+  font-size: 56px;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: -3px;
+}
+.time-colon {
+  font-family: 'DM Mono', monospace;
+  font-size: 44px;
+  font-weight: 300;
+  letter-spacing: 0;
+  animation: blink 1s step-start infinite;
+  margin-bottom: 6px;
+}
+.time-sub {
+  font-size: 16px;
+  color: rgba(232,237,245,0.3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
