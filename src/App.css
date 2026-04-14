@@ -317,3 +317,15 @@
 .ctrl-btn:active { transform: translateY(0); }
 .ctrl-btn.start { color: #fff; }
 
+/* progress bar */
+.prog-track {
+  height: 4px;
+  background: rgba(255,255,255,0.07);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.prog-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+}
