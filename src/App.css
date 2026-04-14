@@ -85,3 +85,26 @@
   font-weight: 700;
   white-space: nowrap;
 }
+/* mode tabs */
+.mode-tabs {
+  display: flex;
+  border-radius: 16px;
+  padding: 5px;
+  margin-bottom: 16px;
+  gap: 4px;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+.mode-tab {
+  flex: 1;
+  padding: 9px 6px;
+  border: none;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: 'Manrope', sans-serif;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+  white-space: nowrap;
+}
+.mode-tab:hover { opacity: 0.85; transform: translateY(-1px); }
