@@ -55,3 +55,21 @@
   color: #fff;
   letter-spacing: -0.4px;
 }
+.hdr-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.clock-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.live-clock {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
