@@ -25,3 +25,12 @@
 .orb1 { width: 520px; height: 520px; top: -140px; right: -100px; animation-duration: 20s; }
 .orb2 { width: 400px; height: 400px; bottom: -100px; left: -80px; animation-duration: 26s; animation-delay: -10s; }
 
+
+.container {
+  width: 100%;
+  max-width: 520px;
+  position: relative;
+  z-index: 1;
+  animation: fadeUp 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
