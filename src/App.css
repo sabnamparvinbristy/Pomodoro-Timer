@@ -67,9 +67,14 @@
   align-items: flex-end;
 }
 .live-clock {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 400;
   letter-spacing: -0.3px;
   font-variant-numeric: tabular-nums;
   line-height: 1;
+}
+.live-date {
+  font-size: 15px;
+  color: rgba(232,237,245,0.32);
+  margin-top: 2px;
 }
