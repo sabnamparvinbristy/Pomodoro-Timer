@@ -287,3 +287,10 @@
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
+/* divider */
+.divider {
+  height: 1px;
+  margin: 0 0 22px;
+  border-radius: 1px;
+}
+
