@@ -78,3 +78,10 @@
   color: rgba(232,237,245,0.32);
   margin-top: 2px;
 }
+.session-badge {
+  border-radius: 20px;
+  padding: 5px 12px;
+  font-size: 15px;
+  font-weight: 700;
+  white-space: nowrap;
+}
