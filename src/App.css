@@ -293,4 +293,27 @@
   margin: 0 0 22px;
   border-radius: 1px;
 }
+/* controls */
+.controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+.ctrl-btn {
+  border: none;
+  border-radius: 16px;
+  padding: 13px 32px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Manrope', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+  letter-spacing: 0.2px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.ctrl-btn:hover { transform: translateY(-2px); opacity: 0.9; }
+.ctrl-btn:active { transform: translateY(0); }
+.ctrl-btn.start { color: #fff; }
 
